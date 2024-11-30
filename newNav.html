@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .nav{
+            background-color: #0f1111;
+            height: 60px;
+            display: flex;
+            color: white;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+       .logo{
+        background-image: url(amazon.jpg);
+        width: 89px;
+        height: 42px;
+        background-size: cover;
+       }
+   .search{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    border-radius: 4px;
+}
+   #options{
+flex-grow: 1;
+padding: 7px;
+font-size: 0.8rem;
+background-color: pink;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+border: none;
+}
+.search-bar{
+    flex-grow: 3;
+    border: none;
+    padding: 5.5px 1px ;
+    font-size: 1rem;
+}
+.search-icon{
+    flex-grow: 1;
+    background-color: #febd68;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+
+}
+p{
+    font-size: 0.6rem;
+}
+div:hover{
+    border: 1px solid white;
+}
+.nav:hover{
+    border: none;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="logo">
+            </div>
+            <div class="address">
+                <p>Deliver to</p>
+                <p>India</p>
+            </div>
+            <div class="search">
+                
+                    <select name="first" id="options" >
+                        <option value="All">All</option>
+                    </select>
+                    <input type="text" placeholder="Search Amazon"  class="search-bar">
+                <div class="search-icon">
+                    <div class="p">🛸</div>
+                </div>
+            </div>
+
+                <div class="language"><p>Language</p></div>
+                <div class="sign-in">
+                    <p>Hello , sign in </p>
+                    <p>Account & Lists </p>
+                </div>
+                <div class="return-order">
+                    <p>Return</p>
+<p>& Orders</p> 
+                </div>
+                <div class="cart">
+                <p>Cart</p>    
+                </div>
+        </div>
+    </header>
+</body>
+</html>
